@@ -18,7 +18,7 @@ If your app uses this package, this is how the two connect.
 
 ### Demo
 
-<a href="https://github.com/scripting/readinglist/blob/main/code/demo.js">demo.js</a> is a tiny reader app built on readinglist.js. 
+<a href="https://github.com/scripting/readinglist/blob/main/demo.js">demo.js</a> is a tiny reader app built on readinglist.js. 
 
 It "subscribes" by printing to the console, and keeps its state in state.json in this folder, so you can run it twice and watch the second run find only what changed.
 

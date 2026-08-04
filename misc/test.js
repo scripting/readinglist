@@ -7,7 +7,7 @@
 	Run it: node test.js -- it prints one line per test and a total.  */
 
 const http = require ("http");
-const readinglist = require ("../code/readinglist.js");
+const readinglist = require ("../readinglist.js");
 
 const testPort = 1799;
 const urlServer = "http://localhost:" + testPort + "/";

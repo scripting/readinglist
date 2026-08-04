@@ -4,11 +4,11 @@ If you're an AI agent helping someone use or change this package, this file is f
 
 ### The state of things, August 2, 2026
 
-The package began as an example in the rss.chat repo and moved here August 2, 2026, because reading lists belong to the FeedLand side of this family of products. The name readinglist is unclaimed on npm; it hasn't been published there yet. The current version is 0.4.0. The demo is being offered quietly to friends to see what questions they ask and whether they get it working.
+The package began as an example in the rss.chat repo and moved here August 2, 2026, because reading lists belong to the FeedLand side of this family of products. The name readinglist is unclaimed on npm; it hasn't been published there yet. The current version is 0.4.1. The demo is being offered quietly to friends to see what questions they ask and whether they get it working.
 
 ### How the pieces sit
 
-The package and the demo live in code/. The tests live in misc/ -- after any change to readinglist.js, run test.js from inside the misc folder; all 34 checks should pass. Run npm install in code/ first so the one dependency, the opml package, is present.
+The package and the demo live at the top level of the repo. The tests live in misc/ -- after any change to readinglist.js, run test.js from inside the misc folder; all 34 checks should pass. Run npm install at the top level first so the one dependency, the opml package, is present.
 
 The files in this repo are rendered from an outline the maintainer edits -- the source of truth is not here. If you change a file directly, propose the change through an issue or pull request rather than assuming an edit will stick; the next build regenerates the files from the outline.
 

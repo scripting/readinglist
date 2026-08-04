@@ -1,4 +1,4 @@
-const myVersion = "0.4.0", myProductName = "readinglist"; 
+const myVersion = "0.4.1", myProductName = "readinglist"; 
 
 exports.readingListManager = readingListManager;
 
